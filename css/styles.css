@@ -1,10 +1,17 @@
 /* En este archivo escriban su CSS */
 
-/* Fonts */
+
 
 /* Importar aquí la font */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:wght@400;700&family=Poppins:wght@500&display=swap');
 
 
+/* Fonts */
+ *{ 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
