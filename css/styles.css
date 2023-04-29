@@ -12,6 +12,7 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
+    margin: auto;
 }
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -19,6 +20,7 @@
 */
 body {
     list-style: none;
+    
    
 }
 header {
@@ -26,24 +28,51 @@ header {
     background-color: #fbfbfb;
     font-size:18px;
     width:95%;
-    color: rgba(175, 89,158, 0.3),
-    
+    color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-block;    
 }
-    
+
 
 #logo {
     border-style:none;
-    width:10%;
+    width:15%;
     
 }
+#Inicio{
+    
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#Contacto{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+      
+
 
 .enlaces {
     display: block;
     text-align: center;
     margin-bottom: 20px;
+    font-size:18px;
     text-decoration: none;
     color: inherit;
-    font-size:18px;
     
 }
 
@@ -78,17 +107,22 @@ h2 {
 }
 
 #sistesis {
-     bottom: auto;
-     text-align: center;
-     font-size:20px; 
-     border-radius: 15px;
-     background-color: #af599e;
-     text-decoration: none;
-     text-transform: capitalize;
-
+    text-align: center;
+    font-size:20px; 
+    border-radius: 15px;
+    background-color: #af599e;
+    text-transform: capitalize;
+    padding: 15px;
+    box-align: center;
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    text-decoration: none;
+    color: inherit;
+    
  }       
  section{
     text-align: center;
+    list-style: none;
       
  }  
  .adicional{
@@ -105,5 +139,7 @@ h2 {
     text-align:center;
     font-size: 20px;
     color:#fbfbfb;
-    background-color:#af599e
+    background-color:#af599e;
+    padding: 20px;
+    box-sizing: border-box;
 }
