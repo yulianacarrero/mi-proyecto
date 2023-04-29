@@ -11,6 +11,7 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
 }
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -18,7 +19,7 @@
 */
 body {
     list-style: none;
-    max-width: 1000px;
+   
 }
 header {
     margin:0;    
@@ -30,9 +31,10 @@ header {
 }
     
 
-.logo {
+#logo {
     border-style:none;
     width:10%;
+    
 }
 
 .enlaces {
@@ -42,19 +44,20 @@ header {
     text-decoration: none;
     color: inherit;
     font-size:18px;
+    
 }
 
-.foto {
-    width:400%;
-    height:400%;
-    border-radius:20px;
-    
+#foto{
+    width:400px;
+    height:400px;
+    border-radius:180px;
+    text-align: center;
 }
 
 h1{
     text-align: center;
     font-size: 36px; 
-    font: size 700%;
+  
 }
 
 main{
@@ -63,14 +66,41 @@ main{
     text-align: center;
     line-height: 1.2;
     font-size:18px;
-
+    border-radius:10px;
+    background-color: rgba(175, 89,158, 0.3);
+    padding: 20px;
 }
-        
+
+h2 {
+    font-size:28px;
+    text-align: center;
+   
+}
+
+#sistesis {
+     bottom: auto;
+     text-align: center;
+     font-size:20px; 
+     border-radius: 15px;
+     background-color: #af599e;
+     text-decoration: none;
+     text-transform: capitalize;
+
+ }       
  section{
     text-align: center;
       
  }  
- 
+ .adicional{
+    display:flex;
+    justify-content: space-between;
+ }
+
+ .icono{
+    box-sizing: border-box;
+    margin: 20px 20px;
+ }
+
  #pie {
     text-align:center;
     font-size: 20px;
