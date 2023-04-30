@@ -24,6 +24,7 @@ body {
     list-style: none;
     max-width: 1200px;
     margin: auto;
+    padding: 0%;
 }
 
 .head {
@@ -37,6 +38,7 @@ body {
     width: 100%;
     z-index: 100;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -84,23 +86,25 @@ a {
 
 }
 
+header{
+    display:flex;
+    height: 70px;
+}
 .logo-Eidos {
-    position: fixed;
     display: flex;
+    justify-content: flex-end;
     height: 5px; 
     border-style:none;
     width: 100%;
-    padding: 10px 0px;
-    margin: 0px;
+    margin: 5px;
+    max-width: 200px;
+    padding: 5px 5px;
     color: #e6e5e5;
     top: 0;
-    width: 100%;
- 
     margin-bottom: 10px;
-    
+    box-sizing: border-box;
+
 }
-
-
 
 #imagen{
     display: block;
@@ -109,8 +113,12 @@ a {
     width: 100%;
     max-width: 400px;
     height: 400px;
+    object-fit: cover;
     flex-direction: column;
-    border: radius 180px;
+    margin-bottom: 10%;
+    border-radius: 180px;
+    
+    
    
 }
 
@@ -119,15 +127,16 @@ section.foto{
     list-style: none;
     padding-top: 10%; 
     margin-bottom: 10px;
-
+    box-sizing: border-box;
+   
 }
 
 
 h1{
     text-align: center;
     font-size: 36px; 
-    margin: 20px;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom:0.5%;
 
 }
 
@@ -140,6 +149,7 @@ h1{
     font-size:18px;
     padding-top: 5%;
     padding-bottom: 20px;
+    box-sizing: border-box;
 
 }
 main{
@@ -151,6 +161,7 @@ main{
     border-radius:10px;
     background-color: rgba(175, 89,158, 0.3);
     padding: 20px;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -172,7 +183,7 @@ h2 {
     font-family:  sans-serif;
     text-decoration: none;
     color: inherit;
-    margin-top: 15px;
+    margin-top: 15%;
     margin: 20px 450px 20px 450px;
     box-sizing: border-box;
     
@@ -181,6 +192,7 @@ h2 {
     text-align: center;
     list-style: none;
     padding-top: 10%;
+    box-sizing: border-box;
     
  }  
 
@@ -188,14 +200,16 @@ h2 {
     justify-content: space-between;
     display:flex;
     padding: 10px;
+    box-sizing: border-box;
 
  }
 
  .icono{
     box-sizing: border-box;
     margin: 20px 20px;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+   
 
    
  }
