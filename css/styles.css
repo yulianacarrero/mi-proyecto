@@ -12,23 +12,26 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
-    margin: 0 auto;   
+    margin: 0 auto;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
 }
 
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
+
 body {
     list-style: none;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .head {
+
     display: flex;
+    height: 90px;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
     background:#fbfbfb;
     position: fixed;
     width: 100%;
@@ -50,10 +53,17 @@ body {
     text-transform: capitalize;
     font-size: 20px;
     color: inherit;
+    font-weight: 700;
+    padding-right: 30 px;
 }
 .navbar a:hover{
     background: #e6e5e5;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 #Inicio { 
     display: flex;
@@ -61,6 +71,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: auto;
+    scroll-behavior: smooth;
+
 }
 #contacto {
     display: flex;
@@ -68,29 +80,37 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 0;
+    scroll-behavior: smooth;
+
 }
 
-.logo {
+.logo-Eidos {
+    position: fixed;
+    display: flex;
+    height: 5px; 
     border-style:none;
-    width: 20px;
-    height:20px;
-    padding: 10px 10px;
-    margin: 5px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
     color: #e6e5e5;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+    top: 0;
+    width: 100%;
+ 
+    margin-bottom: 10px;
     
 }
+
+
 
 #imagen{
     display: block;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 400px;
-    margin: auto;
     flex-direction: column;
-    border-radius:180px;
+    border: radius 180px;
    
 }
 
@@ -99,6 +119,7 @@ section.foto{
     list-style: none;
     padding-top: 10%; 
     margin-bottom: 10px;
+
 }
 
 
@@ -112,11 +133,12 @@ h1{
 
 #detalle{
     max-width: 1200px;
+    min-height: 100vh;
     margin: auto;
     text-align: center;
     line-height: 1.2;
     font-size:18px;
-    padding-top: 20px;
+    padding-top: 5%;
     padding-bottom: 20px;
 
 }
@@ -138,9 +160,10 @@ h2 {
 }
 
 #sistesis {
+    display: flex;
     text-align: center;
     font-size:20px; 
-    border-radius: 15px;
+    border-radius: 15pc;
     background-color: #af599e;
     text-transform: capitalize;
     padding: 15px;
@@ -151,6 +174,7 @@ h2 {
     color: inherit;
     margin-top: 15px;
     margin: 20px 450px 20px 450px;
+    box-sizing: border-box;
     
  }       
  section.content{
@@ -172,6 +196,7 @@ h2 {
     margin: 20px 20px;
     width: 60px;
     height: 60px;
+
    
  }
 
